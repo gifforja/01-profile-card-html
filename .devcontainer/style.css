@@ -1,0 +1,70 @@
+/* Blank stylesheet */
+
+/* Set the background color for the whole page and apply the Roboto font */
+body {
+    background-color: #add8e6; /* Light blue background */
+    font-family: 'Roboto', Arial, sans-serif; /* Use Roboto font, fallback to Arial/sans-serif */
+}
+
+/* Style the profile card container */
+.profile-card {
+    background: #fff; /* White card background */
+    border: 2px solid #003366; /* Dark blue border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 32px; /* Space inside the card */
+    max-width: 500px; /* Limit card width */
+    margin: 48px auto; /* Center card horizontally and add space above/below */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07); /* Subtle shadow for depth */
+    text-align: center; /* Center text inside the card */
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 48px; /* Large font size */
+    text-align: center; /* Center the heading */
+    color: #003366; /* Dark blue text */
+}
+
+/* Style the subheading */
+h2 {
+    font-size: 32px; /* Medium-large font size */
+    text-align: center; /* Center the subheading */
+    color: slategray; /* Light grey text */
+}
+
+/* Style the paragraph text */
+p {
+    font-size: 18px; /* Slightly larger font size for readability */
+    line-height: 1.6; /* More space between lines */
+}
+
+/* Resize the image to fit inside the profile card and style the profile image */ 
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; /* This makes the image circular */
+    border: 2px solid #003366;
+}
+
+/* Ensure all unordered lists inside .profile-card have no bullets */
+.profile-card ul,
+.profile-card ul li {
+    list-style-type: none !important;
+}
+
+/* Remove bullet points from the list and add spacing */  
+.profile-card ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 24px 0 0 0; /* Add spacing above the list */
+}
+
+.profile-card ul li {
+    margin-bottom: 16px; /* Space between list items */
+}
+
+.profile-card ul li:last-child {
+    margin-bottom: 0; /* Remove bottom margin from last item */
+}
+
