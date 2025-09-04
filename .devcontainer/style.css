@@ -48,12 +48,6 @@ p {
 }
 
 /* Ensure all unordered lists inside .profile-card have no bullets */
-.profile-card ul,
-.profile-card ul li {
-    list-style-type: none !important;
-}
-
-/* Remove bullet points from the list and add spacing */  
 .profile-card ul {
     list-style: none; /* Remove bullet points */
     padding: 0;
